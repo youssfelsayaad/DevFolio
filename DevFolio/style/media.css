@@ -1,0 +1,47 @@
+/* small */
+@media screen and (min-width: 640px){
+
+}
+
+/* md */
+@media screen and (min-width: 768px){
+
+}
+
+/* lg */
+@media screen and (min-width: 1024px){
+    .nav-item .nav-link:hover::after{
+        content:"";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width:80%;
+        bottom: 0;
+        left: 0; 
+    
+        animation: border-b 0.7s;
+    
+    }
+    .active::after{
+        content:"";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width:70%;
+        bottom: 0;
+        left: 50%; 
+        transform: translateX(-50%);
+    
+    }
+    
+}
+
+/* xl */
+@media screen and (min-width: 1280px){
+
+}
+
+/* xxl */
+@media screen and (min-width: 1536px){
+
+}
